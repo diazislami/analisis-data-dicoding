@@ -320,6 +320,7 @@ with tab2:
         data=windspeed_most_users,
         x='windspeed_category',
         y='count',
+        palette=["#90CAF9", "#D3D3D3", "#D3D3D3"],
         ax=ax
     )
     ax.set_title("Total bike Rentals by Windspeed Category", loc='center', fontsize=13)
