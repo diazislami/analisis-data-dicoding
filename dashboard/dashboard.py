@@ -89,8 +89,8 @@ st.markdown(
 )
 
 # Membaca dataset secara langsung tanpa unggah file
-hour_df = pd.read_csv('main_data1.csv')
-day_df = pd.read_csv('main_data2.csv')
+hour_df = pd.read_csv("main_data1.csv")
+day_df = pd.read_csv("main_data2.csv")
 
 st.sidebar.subheader("Tinjauan Data")
 
